@@ -1,0 +1,274 @@
+
+@media screen and (min-width: 281px) and (max-width : 320px) {
+  .search {
+    top: 2px;
+    right: 10px;
+    font-size: .8em;
+  }
+  .logo {
+    left: 5px;
+    top: 20px;
+  }
+  .usda-head {
+    left: 80px;
+    font-size: .45em;
+    top: 25px;
+  }
+  .ascr-head {
+    top: 45px;
+    left: 80px;
+    font-size: .5em;
+  }
+    
+    nav {
+    display: none;
+  }
+    
+  .slideOpen {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #205493;
+    width: 10%;
+    text-align: center;
+    top: 70px;
+    color: #FFFFFF;
+    z-index: 27;
+  }
+  .slide .slideClose {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 26;
+  }
+  .slide {
+    display: block;
+    transition: 0.8s;
+    padding-top: 60px;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+    top: 70px;
+    left: 0;
+    background-color: #205493;
+    z-index: 26;
+  }
+  .slide ul {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: #205493;
+    white-space: normal;
+    height: auto;
+  }
+  .slide li {
+    display: list-item;
+  }
+  .slide a {
+    display: block;
+    padding: 15px 7px 15px 7px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: sans-serif "Avenir Light", "Avenir Light Oblique", "Avenir Medium", "Avenir Medium Oblique", "Avenir Next Condensed Bold";
+    font-weight: strong 300;
+    color: #FFFFFF;
+    border-bottom: #046b99 solid;
+    line-height: 100%;
+  }
+  .slide a:hover {
+    background-color: #205493;
+  }
+  .slide li ul {
+    display: none;
+    position: absolute;
+    white-space: normal;
+  }
+  .slide li ul li {
+    display: list-item;
+  }
+  .slide li ul a {
+    display: block;
+    text-align: left;
+    line-height: 100%;
+    border-bottom: #046b99 solid;
+  }
+  .slide ul li:hover > ul {
+    display: inherit;
+  }
+  .slide ul ul li {
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+ 
+  .box {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .next {
+    opacity: 0;
+    position: absolute;
+    top: 45px;
+    transition: opacity 800ms;
+    right: 10px;
+    cursor: pointer;
+  }
+  .prev {
+    opacity: 0;
+    position: absolute;
+    top: 45px;
+    transition: opacity 800ms;
+    left: 10px;
+    cursor: pointer;
+  }
+  .box:hover .prev, .box:hover .next {
+    opacity: 1.0;
+  }
+  .image-slider {
+    display: block;
+    position: absolute;
+    top: 100px;
+    /* width: 100%; */
+  }
+  .image-slider img {
+    width: 100%;
+    z-index: 1;
+  }
+  .box:hover #hovComments {
+    display: none;
+  }
+  .slider-comments {
+    text-align: center;
+    opacity: .55;
+    top: 180px;
+    width: 100%;
+    padding: 5px;
+    font-size: 7.4pt;
+      z-index: 21;
+  }
+  .mainBox {
+    top: 190px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, .5), .5px 0 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    border-bottom: #205493 solid 5px;
+    z-index: 20;
+    padding-bottom: 100px;
+  }
+  .aline {
+    width: 100%;
+    line-height: 5px;
+  }
+  .phead {
+    font-size: 11pt;
+    text-align: center;
+    margin: 5px 0 0 0;
+  }
+  .leftbox {
+    width: 80%;
+    margin: auto 0;
+    text-align: center;
+    float: none;
+  }
+  .leftbox img {
+    width: 80%;
+    margin-top: 40px;
+  }
+  .rightbox {
+    width: 80%;
+    text-align: center;
+    margin: auto 0;
+    float: none;
+  }
+  .rightbox img {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .textbox {
+    font-size: 11pt;
+    margin: 0;
+  }
+  .service {
+    width: 60%;
+    float: none;
+    margin: auto 0;
+    text-align: center;
+  }
+  .service img {
+    margin-top: 40px;
+    width: 60%;
+  }
+  .events {
+    width: 60%;
+    margin: auto 0;
+    float: none;
+    text-align: center;
+  }
+  .events img {
+    margin-top: 40px;
+    width: 60%;
+  }
+  .complaints {
+    width: 60%;
+    margin: auto 0;
+    float: none;
+    text-align: center;
+  }
+  .complaints img {
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  /* -------  Footer ------*/
+    .menu {
+        top: 200px;
+        z-index: 22;
+    }
+  .menu li {
+    display: list-item;
+    position: relative;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .menu h4 {
+    font-size: 12pt;
+  }
+    
+  .footer {
+    top: 200px;
+    left: -50px;
+      width: 100%;
+  }
+    
+  .footer li {
+    display: list-item;
+    position: relative;
+    list-style-type: none;
+    word-wrap: break-word;
+    margin-top: 10px;
+  }
+   
+  .footer a {
+    font-size: 11pt;
+    text-decoration: none;
+ 
+    word-wrap: break-word;
+  }
+  .footer li a:hover {
+    pointer: cursor;
+  }
+}

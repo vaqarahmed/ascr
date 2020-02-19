@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 691px) and (max-width : 700px) {
+  .search {
+    top: 2px;
+    right: 10px;
+    font-size: .9em;
+  }
+  .logo {
+    left: 10px;
+    top: 20px;
+  }
+  .usda-head {
+    left: 80px;
+    font-size: .9em;
+    top: 25px;
+  }
+  .ascr-head {
+    top: 48px;
+    left: 80px;
+    font-size: 1.1em;
+  }
+    /*
+ .mobilMenu {
+    margin-top: 80px;
+    padding: 7px;
+    text-align: center;
+    display: block;
+    background-color: #1c4e9d;
+    font-family: serif "Avenir Heavy";
+    font-size: 15pt;
+    color: #FFFFFF;
+  }
+    */
+/*Display submenudown when clicked on Parent Lable */
+ /* #submenu:checked + nav {
+    display: block;
+  }
+ */   
+nav {
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 75px;
+  background-color: #205493;
+  z-index: 25;
+}
+nav ul {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+nav ul li {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  background-color: #205493;
+}
+nav a {
+  display: block;
+  padding: 15px 7px 15px 7px;
+  font-size: 11px;
+  line-height: 250%;
+  text-decoration: none;
+  font-family: sans-serif "Avenir Light", "Avenir Light Oblique", "Avenir Medium", "Avenir Medium Oblique", "Avenir Next Condensed Bold";
+  font-weight: strong 300;
+  color: #FFFFFF;
+  word-spacing: 3px;
+}
+nav a:hover {
+  background-color: #046b99;
+}
+nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  white-space: nowrap;
+}
+nav li ul li {
+  display: list-item;
+}
+nav li ul a {
+  display: block;
+  text-align: left;
+  line-height: 200%;
+  word-spacing: 3px;
+  background-color: #205493;
+  border-bottom: #046b99 solid;
+}
+nav ul li:hover > ul {
+  display: inherit;
+}
+    
+ 
+  .next {
+    opacity: 0;
+    position: absolute;
+    top: 85px;
+    transition: opacity 800ms;
+    right: 5px;
+    cursor: pointer;
+  }
+  .prev {
+    opacity: 0;
+    position: absolute;
+    top: 85px;
+    transition: opacity 800ms;
+    left: 5px;
+    cursor: pointer;
+  }
+  .box:hover .prev, .box:hover .next {
+    opacity: 1.0;
+  }
+  .image-slider {
+    display: block;
+    position: absolute;
+    top: 75.9px;
+    /* width: 100%; */
+  }
+  .image-slider img {
+    width: 100%;
+    z-index: 1;
+  }
+  .box:hover #hovComments {
+    display: none;
+  }
+  .slider-comments {
+    text-align: center;
+    opacity: .55;
+    top: 240px;
+    width: 100%;
+    padding: 5px;
+    font-size: 11pt;
+  }
+  .mainBox {
+    top: 277px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, .5), .5px 0 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    border-bottom: #205493 solid 5px;
+    z-index: 20;
+    padding-bottom: 100px;
+  }
+  .aline {
+    width: 100%;
+    line-height: 5px;
+  }
+  .phead {
+    font-size: 11pt;
+    text-align: center;
+    margin: 5px 0 0 0;
+  }
+  .leftbox {
+    width: 75%;
+    margin: auto 0;
+    text-align: center;
+    float: none;
+  }
+  .leftbox img {
+    width: 75%;
+    margin-top: 40px;
+  }
+  .rightbox {
+    width: 75%;
+    text-align: center;
+    margin: auto 0;
+    float: none;
+  }
+  .rightbox img {
+    width: 75%;
+    margin-top: 30px;
+  }
+  .textbox {
+    font-size: 11pt;
+    margin: 0;
+  }
+  .service {
+    width: 50%;
+    float: none;
+    margin: auto 0;
+    text-align: center;
+  }
+  .service img {
+    margin-top: 40px;
+    width: 50%;
+  }
+  .events {
+    width: 50%;
+    margin: auto 0;
+    float: none;
+    text-align: center;
+  }
+  .events img {
+    margin-top: 40px;
+    width: 50%;
+  }
+  .complaints {
+    width: 50%;
+    margin: auto 0;
+    float: none;
+    text-align: center;
+  }
+  .complaints img {
+    width: 50%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  /* --------- Footer ---------*/
+  .menu {
+    top: 280px;
+    left: 16px;
+  }
+  .menu ul {
+    text-align: left;
+  }
+  .menu li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+  }
+  .menu h4 {
+    font-size: 17pt;
+  }
+  .footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 280px;
+      text-align: center;
+  }
+    .footer ul {
+       
+    }
+  .footer li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    margin-top: 10px;
+       left: -30px;
+  }
+  .footer a {
+    font-size: 11pt;
+    text-decoration: none;
+    
+  }
+  .footer li a:hover {
+    pointer: cursor;
+  }
+}
+ /* media query 681 */
